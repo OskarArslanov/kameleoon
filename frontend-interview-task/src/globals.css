@@ -16,6 +16,7 @@ h1 {
  font-size: 26px;
  line-height: 31.69px;
  color: #222222;
+ margin-bottom: 40px;
 }
 
 
@@ -137,15 +138,22 @@ h1 {
 
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/roboto/static/Roboto-Black.ttf");
+  src: url("./assets/fonts/roboto/static/Roboto-Regular.ttf");
   font-weight: 400;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/roboto/static/Roboto-Black.ttf");
+  font-weight: 500;
   font-style: normal;
  }
  
  @font-face {
   font-family: "Roboto";
   src: url("./assets/fonts/roboto/static/Roboto-BlackItalic.ttf");
-  font-weight: 400;
+  font-weight: 500;
   font-style: italic;
  }
  
@@ -174,20 +182,6 @@ h1 {
   font-family: "Roboto";
   src: url("./assets/fonts/roboto/static/Roboto-LightItalic.ttf");
   font-weight: 300;
-  font-style: italic;
- }
- 
- @font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto/static/Roboto-Medium.ttf");
-  font-weight: 500;
-  font-style: normal;
- }
- 
- @font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/roboto/static/Roboto-MediumItalic.ttf");
-  font-weight: 500;
   font-style: italic;
  }
  

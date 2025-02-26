@@ -1,0 +1,11 @@
+.component {
+ border: none;
+ 
+ &.fullWidth {
+  width: 100%;
+ }
+
+ &.md {
+  height: 45px;
+ }
+}
