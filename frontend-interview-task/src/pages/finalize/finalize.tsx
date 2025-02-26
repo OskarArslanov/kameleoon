@@ -1,13 +1,12 @@
 import { Page } from "../../features/page/page";
 import s from "./finalize.module.css";
-import { useFinalize } from "./useFinalize";
 
 export const Finalize = () => {
- useFinalize();
-
+ 
  return (
-  <Page className={s.page}>
+  <Page className={s.page} withBackButton>
    <h1>Finalize</h1>
+   <span>Spring promotion</span>
   </Page>
  );
 };

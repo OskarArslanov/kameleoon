@@ -1,13 +1,13 @@
 import { SortRequest } from "../types/request";
 import { baseFetch, buildParams } from "./utils/baseFetch";
 
-enum TypeEnum {
+export enum TypeEnum {
  CLASSIC = "CLASSIC",
  SERVER_SIDE = "SERVER_SIDE",
  MVT = "MVT",
 }
 
-enum StatusEnum {
+export enum StatusEnum {
  DRAFT = "DRAFT",
  ONLINE = "ONLINE",
  PAUSED = "PAUSED",

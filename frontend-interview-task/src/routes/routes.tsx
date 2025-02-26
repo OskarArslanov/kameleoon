@@ -4,7 +4,7 @@ import { Results } from "../pages/results/results";
 import { Finalize } from "../pages/finalize/finalize";
 import { concatPath } from "../helpers/path";
 
-enum RouteEnum {
+export enum RouteEnum {
  Dashboard = "dashboard",
  Results = "results",
  Finalize = "finalize",
@@ -17,11 +17,21 @@ export const routes = createBrowserRouter([
  },
  {
   path: RouteEnum.Results,
-  element: <Results />,
+  children: [
+   {
+    path: ":id",
+    element: <Results />,
+   },
+  ],
  },
  {
   path: RouteEnum.Finalize,
-  element: <Finalize />,
+  children: [
+   {
+    path: ":id",
+    element: <Finalize />,
+   },
+  ],
  },
  {
   path: "*",

@@ -3,4 +3,31 @@
  display: flex;
  flex-direction: column;
  gap: 16px;
+ background-color: #fafafa;
+ min-height: 100vh;
+ box-sizing: border-box;
+ position: relative;
+
+ .back {
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.55px;
+
+  svg {
+   width: 16px;
+   height: 8.833619117736816px;
+   transform: rotate(-90deg);
+  }
+ }
 }

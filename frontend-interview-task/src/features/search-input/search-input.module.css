@@ -24,7 +24,7 @@
  .indicator {
   color: #d1d1d1;
   position: absolute;
-  right: 10px;
+  right: 20px;
   top: 50%;
   transform: translateY(-50%);
   font-weight: 400;

@@ -1,7 +1,7 @@
 import { FC, HTMLProps } from "react";
-import { SearchIcon } from "../../assets/icons/searchIcon";
+import { SearchIcon } from "../../assets/icons/search-icon";
 import { Input } from "../../components/input/input";
-import s from "./searchInput.module.css";
+import s from "./search-input.module.css";
 import cn from "classnames";
 
 interface Props extends Omit<HTMLProps<HTMLDivElement>, "onChange"> {

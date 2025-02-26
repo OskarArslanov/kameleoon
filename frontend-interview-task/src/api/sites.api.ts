@@ -6,7 +6,7 @@ export type SiteType = {
  url: string;
 };
 
-export const fetchSites = async (request: SortRequest): Promise<SiteType[]> => {
+export const fetchSites = async (request?: SortRequest): Promise<SiteType[]> => {
  return baseFetch("/sites" + buildParams(request));
 };
 

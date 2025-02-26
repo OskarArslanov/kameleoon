@@ -1,3 +1,3 @@
 export const concatPath = (path: string[]) => {
- return path.join("/");
+ return '/' + path.join("/");
 };
