@@ -1,9 +1,6 @@
-export enum SortEnum {
- ASC = "asc",
- DESC = "desc",
-}
+export type SortType = "asc" | "desc";
 
 export type SortRequest = Partial<{
  sort: string;
- order: SortEnum;
+ order: SortType;
 }>;

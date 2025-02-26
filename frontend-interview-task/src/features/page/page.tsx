@@ -6,6 +6,7 @@ import { ArrowIcon } from "../../assets/icons/arrow-icon";
 interface Props extends HTMLProps<HTMLDivElement> {
  withBackButton?: boolean;
 }
+
 export const Page: FC<Props> = (props) => {
  const { className, withBackButton, children, ...other } = props;
 

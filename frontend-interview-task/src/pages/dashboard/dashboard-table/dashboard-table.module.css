@@ -15,26 +15,8 @@
  .header {
   font-weight: 500;
   font-size: 11px;
-  line-height: 12.89px;
   color: #999999;
   height: 40px;
-
-  .col {
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-
-   gap: 4px;
-
-   .sort {
-    display: flex;
-    color: #999999;
-    cursor: pointer;
-    background: transparent;
-    align-items: center;
-    border: none;
-   }
-  }
  }
 
  .header,

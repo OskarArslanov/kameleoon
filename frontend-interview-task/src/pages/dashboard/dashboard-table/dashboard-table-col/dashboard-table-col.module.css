@@ -1,0 +1,29 @@
+.feature {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+
+ gap: 4px;
+
+ .sort {
+  display: flex;
+  color: #999999;
+  cursor: pointer;
+  background: transparent;
+  align-items: center;
+  border: none;
+
+  svg {
+   width: 9px;
+   height: 5px;
+  }
+
+  &.active {
+   color: #000000;
+  }
+
+  &.asc {
+   transform: rotate(180deg);
+  }
+ }
+}
