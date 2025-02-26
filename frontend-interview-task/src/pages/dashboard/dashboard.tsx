@@ -4,7 +4,7 @@ import s from "./dashboard.module.css";
 import { useDashboard } from "./useDashboard";
 
 export const Dashboard = () => {
- useDashboard();
+ const { handleChangeSearch, search, tests } = useDashboard();
 
  return (
   <Page className={s.page}>
@@ -12,6 +12,8 @@ export const Dashboard = () => {
    <SearchInput
     indicator="7 tests"
     placeholder="What test are you looking for?"
+    value={search}
+    onChange={handleChangeSearch}
    />
   </Page>
  );
