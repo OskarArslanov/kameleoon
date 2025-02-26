@@ -45,7 +45,10 @@ export const DashboardTable = ({ tests }: Props) => {
          String(test.id),
         ])}
        >
-        <Button variant={actionLabel === "Finalize" ? "secondary" : "success"}>
+        <Button
+         variant={actionLabel === "Finalize" ? "secondary" : "success"}
+         fullWidth
+        >
          {actionLabel}
         </Button>
        </Link>

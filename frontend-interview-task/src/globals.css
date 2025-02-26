@@ -244,3 +244,96 @@ a {
  font-weight: 200;
  font-style: italic;
 }
+
+/** Nunito **/
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-Regular.ttf");
+ font-weight: 400;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-Black.ttf");
+ font-weight: 500;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-BlackItalic.ttf");
+ font-weight: 500;
+ font-style: italic;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-Bold.ttf");
+ font-weight: 700;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-BoldItalic.ttf");
+ font-weight: 700;
+ font-style: italic;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-Light.ttf");
+ font-weight: 300;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-LightItalic.ttf");
+ font-weight: 300;
+ font-style: italic;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-SemiBold.ttf");
+ font-weight: 600;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-SemiBoldItalic.ttf");
+ font-weight: 600;
+ font-style: italic;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-ExtraBold.ttf");
+ font-weight: 900;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-ExtraBoldItalic.ttf");
+ font-weight: 900;
+ font-style: italic;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-ExtraLight.ttf");
+ font-weight: 200;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "Nunito";
+ src: url("./assets/fonts/nunito/static/Nunito-ExtraLightItalic.ttf");
+ font-weight: 200;
+ font-style: italic;
+}
